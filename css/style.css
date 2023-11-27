@@ -439,3 +439,21 @@
         /* background-size: cover; */
     }
 }
+
+@keyframes changeBorderRadius {
+    0% {
+        border-radius: 33% 67% 52% 48% / 57% 31% 69% 43%;
+    }
+    25% {
+        border-radius: 51% 49% 25% 75% / 57% 49% 51% 43% ;
+    }
+    50% {
+        border-radius: 19% 81% 36% 64% / 77% 56% 44% 23% ;
+    }
+    75% {
+        border-radius: 76% 24% 27% 73% / 31% 55% 45% 69%  ;
+    }
+    100% {
+        border-radius: 39% 61% 68% 32% / 31% 55% 45% 69% ;
+    }
+}
